@@ -24,4 +24,4 @@ elif score >= 70:
 elif score >= 60:
     print("You got a D")
 else:    
-    print("You got an F try harder next time")  
+    print("You got an F try harder next time. You can do it. More practice and you will get better.")  
