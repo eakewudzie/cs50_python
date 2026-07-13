@@ -11,7 +11,7 @@ z = int(w) + int(y)
 
 print(z)
 
-print("let us try another calculation")
+print("let us try another calculation now ...")
 
 #making it simpler 
 #another alternative to convert user input to integer and add them together
