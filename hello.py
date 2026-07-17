@@ -9,3 +9,8 @@ name = name.title()
 print(f"hello, {name}")
 
 
+num1 = 5
+num2 = 10
+print(f'The sum of {num1} and {num2} is {num1 + num2}') # The sum of 5 and 10 is 15
+
+
