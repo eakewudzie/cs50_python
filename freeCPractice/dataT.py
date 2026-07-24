@@ -1,3 +1,5 @@
+#isinstance() is a built-in function that checks if an object is an instance of a class or a subclass thereof. It returns True if the object is an instance of the specified class or a subclass, and False otherwise.
+
 my_integerVar = 10
 
 print(type(my_integerVar))
