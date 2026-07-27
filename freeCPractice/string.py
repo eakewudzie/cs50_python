@@ -22,3 +22,8 @@ print(new_full_name)
 my_full_name = "Eunice Ewudzie"
 name_parts = my_full_name.split()  # Split the string into a list of words
 print(name_parts)  # ['Eunice', 'Ewudzie']
+
+
+my_list = ["Eunice", "Ewudzie", "Smith"]
+new_list = " ".join(my_list)  # Join the list into a single string with spaces
+print(new_list)  # Eunice Ewudzie Smith 
