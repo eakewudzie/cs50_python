@@ -27,3 +27,9 @@ print(name_parts)  # ['Eunice', 'Ewudzie']
 my_list = ["Eunice", "Ewudzie", "Smith"]
 new_list = " ".join(my_list)  # Join the list into a single string with spaces
 print(new_list)  # Eunice Ewudzie Smith 
+
+my_world = "Hello, my World!"
+new_world = my_world.lower()  # Convert to lowercase
+new_world_upper = my_world.upper()  # Convert to uppercase
+print(new_world)  # hello, my world!
+print(new_world_upper)  # HELLO, MY WORLD!
