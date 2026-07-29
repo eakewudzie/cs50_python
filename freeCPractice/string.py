@@ -31,5 +31,7 @@ print(new_list)  # Eunice Ewudzie Smith
 my_world = "Hello, my World!"
 new_world = my_world.lower()  # Convert to lowercase
 new_world_upper = my_world.upper()  # Convert to uppercase
+new_world_replaced = my_world.replace("World", "Universe")  # Replace "World" with "Universe"
 print(new_world)  # hello, my world!
 print(new_world_upper)  # HELLO, MY WORLD!
+print(new_world_replaced)  # Hello, my Universe!
