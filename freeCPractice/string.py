@@ -32,6 +32,8 @@ my_world = "Hello, my World!"
 new_world = my_world.lower()  # Convert to lowercase
 new_world_upper = my_world.upper()  # Convert to uppercase
 new_world_replaced = my_world.replace("World", "Universe")  # Replace "World" with "Universe"
+new_world_title = my_world.title()  # Convert to title case
 print(new_world)  # hello, my world!
 print(new_world_upper)  # HELLO, MY WORLD!
 print(new_world_replaced)  # Hello, my Universe!
+print(new_world_title)  # Hello, My World!
