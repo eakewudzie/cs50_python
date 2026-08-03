@@ -6,3 +6,4 @@ address += ', Apartment 4B'
 employee_age = 28
 
 employee_info = full_name + ' is '
+print(employee_info + str(employee_age) + ' years old and lives at ' + address)
