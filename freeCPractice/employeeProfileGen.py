@@ -16,3 +16,7 @@ print(experience_info)
 employee_card = f'Employee: {full_name}'
 # print(employee_info + str(employee_age) + ' years old and lives at ' + address)
 
+position = 'Data Analyst'
+salary = 75000
+employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
+print(employee_card)
