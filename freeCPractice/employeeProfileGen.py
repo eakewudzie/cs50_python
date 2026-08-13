@@ -19,4 +19,4 @@ employee_card = f'Employee: {full_name}'
 position = 'Data Analyst'
 salary = 75000
 employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
-print(employee_card)
+print(employee_card) # Employee: John Doe | Age: 28 | Position: Data Analyst | Salary: $75000.   ... could be updated to include address and experience years if needed.
