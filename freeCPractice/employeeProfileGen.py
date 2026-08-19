@@ -24,3 +24,8 @@ print(employee_card) # Employee: John Doe | Age: 28 | Position: Data Analyst | S
 
 
 employee_code = 'DEV-2026-JD-001'
+#slicing
+#start is the index where the slice begins (inclusive).
+#stop is the index where the slice ends (exclusive).
+department = employee_code[0:3]
+print(department)
