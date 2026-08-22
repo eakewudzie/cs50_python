@@ -40,4 +40,6 @@ print(initials)
 
 #negative index slicing...printing last number or character .....
 last_three = employee_code[-3:]
+last_two = employee_code[-2]
 print(last_three)
+print(last_two)
