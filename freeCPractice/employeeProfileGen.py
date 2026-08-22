@@ -29,3 +29,17 @@ employee_code = 'DEV-2026-JD-001'
 #stop is the index where the slice ends (exclusive).
 department = employee_code[0:3]
 print(department)
+
+#the use of slice 
+year_code = employee_code[4:8]
+initials = employee_code[9:11]
+
+print(year_code)
+print(initials)
+
+
+#negative index slicing...printing last number or character .....
+last_three = employee_code[-3:]
+last_two = employee_code[-2]
+print(last_three)
+print(last_two)
