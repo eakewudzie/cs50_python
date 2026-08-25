@@ -42,4 +42,4 @@ print(initials)
 last_three = employee_code[-3:]
 last_two = employee_code[-2]
 print(last_three)
-print(last_two)
+print(last_two) # the last two characters of the employee code is '01' which is the last two digits of the employee code.
