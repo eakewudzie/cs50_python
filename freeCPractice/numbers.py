@@ -24,3 +24,10 @@ int_m = 2.3222
 rounded_int_m = round(int_m)
 
 print(rounded_int_m)
+
+#exponentiation using the pow() function, which takes two arguments: the base and the exponent. It returns the result of raising the base to the power of the exponent.                      
+num1 = 5.6
+num2 = 2
+
+num1_exp = pow(num1, num2) # 5.6 raised to the power of 2
+print('Exponentiation:', num1_exp)
