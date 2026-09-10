@@ -18,3 +18,16 @@ print('Integer Floor Division:', floor_div_ints) # Integer Floor Division: 4
 print('Float Floor Division:', floor_div_floats) # Float Floor Division: 2.0‚
 
 #there is a way to convert a float to an int and vise versa. This is called type casting. int() and float() funcs
+
+int_m = 2.3222
+
+rounded_int_m = round(int_m)
+
+print(rounded_int_m)
+
+#exponentiation using the pow() function, which takes two arguments: the base and the exponent. It returns the result of raising the base to the power of the exponent.                      
+num1 = 5.6
+num2 = 2
+
+num1_exp = pow(num1, num2) # 5.6 raised to the power of 2
+print('Exponentiation:', num1_exp)
