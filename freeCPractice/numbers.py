@@ -31,3 +31,14 @@ num2 = 2
 
 num1_exp = pow(num1, num2) # 5.6 raised to the power of 2
 print('Exponentiation:', num1_exp)
+
+
+
+#rounding numbers
+numx = 3.14159
+numw = 2.71828
+
+rounded_numx = round(numx, 2) #rounds to 2 decimal places
+rounded_numw = round(numw) #rounds to 3 decimal places
+print('Rounded numx:', rounded_numx) # Rounded numx: 3.14
+print('Rounded numw:', rounded_numw) # Rounded numw: 3
