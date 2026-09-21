@@ -42,3 +42,12 @@ rounded_numx = round(numx, 2) #rounds to 2 decimal places
 rounded_numw = round(numw) #rounds to 3 decimal places
 print('Rounded numx:', rounded_numx) # Rounded numx: 3.14
 print('Rounded numw:', rounded_numw) # Rounded numw: 3
+
+
+
+
+#augmented assignment : a shorter way to update a variable using its current value
+
+x = 10
+x += 56
+print('x value:', x)
