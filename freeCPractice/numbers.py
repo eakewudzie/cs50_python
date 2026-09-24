@@ -51,3 +51,9 @@ print('Rounded numw:', rounded_numw) # Rounded numw: 3
 x = 10
 x += 56
 print('x value:', x)
+
+
+# augmented: multiplication
+productX = 5
+productX *= 3
+print('ProductX value:', productX) # ProductX value: 15
