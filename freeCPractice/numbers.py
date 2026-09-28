@@ -57,3 +57,15 @@ print('x value:', x)
 productX = 5
 productX *= 3
 print('ProductX value:', productX) # ProductX value: 15
+
+
+# augmented: division
+priceX = 100
+priceX /= 4
+
+print(priceX) # 25.0
+
+#augmented: floor division
+total_pages = 23
+total_pages //= 5
+print('Total pages:', total_pages) # Total pages: 4
