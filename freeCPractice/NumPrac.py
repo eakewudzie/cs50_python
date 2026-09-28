@@ -22,4 +22,6 @@ print('Total with tip:', running_total)
 final_bill = running_total / num_of_friends
 print('Bill per person:', final_bill)
 
-
+#this is the amount each person pays in the group at the restaurant. 
+each_pays = round(final_bill,2)
+print('Each person pays:',each_pays)
