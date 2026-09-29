@@ -1,0 +1,6 @@
+print(20==21)
+print(20!=21)
+print(20<21)
+print(20>21)
+print(20<=21)
+print(20>=21)
