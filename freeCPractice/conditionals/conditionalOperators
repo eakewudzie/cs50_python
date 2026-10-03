@@ -1,0 +1,38 @@
+print(20==21)
+print(20!=21)
+print(20<21)
+print(20>21)
+print(20<=21)
+print(20>=21)
+
+apples = 10
+if apples > 0:
+    print("There are apples available.")
+else:
+    print("No apples available.")
+
+
+
+
+
+
+#Python doesn't change a value into True or `False. It only treats the value as Boolean when it needs to make a decision.
+#eg below
+value = 0
+
+print(value)       # 0
+print(bool(value)) # False
+
+if value:
+    print("Truthy")
+else:
+    print("Falsy")
+
+# Falsy values in Python include:
+# False
+# 0
+# 0.0
+# ""
+# None
+# etc.
+
