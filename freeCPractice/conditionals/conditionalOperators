@@ -41,3 +41,14 @@ else:
 items_purchased = 0
 
 print(bool(items_purchased))
+
+#there are 3 boolean operators in Python: and, or, not
+age = 25
+
+is_student = True
+
+if age >30 or is_student:
+    print("You are a student and eligible.. proceed to the next step")
+else:
+    print("You are not a student under 30.")
+    
