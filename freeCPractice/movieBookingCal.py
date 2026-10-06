@@ -28,7 +28,7 @@ else:
     print('User is not eligible for Evening shows')
 
 is_member = False
-is_weekend = False
+is_weekend = True
 
 discount = 0
 if is_member and age >= 21:
