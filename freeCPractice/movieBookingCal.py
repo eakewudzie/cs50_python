@@ -38,7 +38,7 @@ else:
     print('User does not qualify for membership discount')
 print('Discount:', discount)
 
-
+#extra charges to be added 
 extra_charges = 0
 if is_weekend:
     extra_charges = 2
