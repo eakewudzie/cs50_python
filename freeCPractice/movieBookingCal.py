@@ -1,14 +1,4 @@
-base_price = 15
-age = 21
-seat_type = 'Gold'
-show_time = 'Evening'
-
-if age > 17:
-    print('User is eligible to book a ticket')
-
-
-
-# The code checks the user's age to determine ticket and evening-show eligibility.
+ #The code checks the user's age to determine ticket and evening-show eligibility.
 
 # It then checks membership and age to determine whether the user qualifies
 
@@ -38,24 +28,29 @@ else:
     print('User does not qualify for membership discount')
 print('Discount:', discount)
 
-#extra charges to be added 
 extra_charges = 0
-if is_weekend:
+if is_weekend or show_time == 'Evening':
     extra_charges = 2
     print('Extra charges will be applied')
 else:
     print('No extra charges will be applied')
 print('Extra charges:', extra_charges)
 
-
-
 if age >= 21 or age >= 18 and (show_time != 'Evening' or is_member):
     print('Ticket booking condition satisfied')
+
     service_charges = 0
     if seat_type == 'Premium':
         service_charges = 5
-        
-        
-    pass
+    elif seat_type == 'Gold':
+        service_charges = 3
+    else:
+        service_charges = 1
+    print('Service charges:', service_charges)
+
+
+    final_price = base_price + extra_charges + service_charges - discount
+    print(f'Final price of ticket: {final_price}')
+   
 else:
-       print('Ticket booking failed due to restrictions')
+    print('Ticket booking failed due to restrictions')
