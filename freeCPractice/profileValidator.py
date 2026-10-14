@@ -1,11 +1,14 @@
+
+#update the code, split....etc
+
 email = 'alice.johnson@company.com'
 print(f'Email: {email}')
 
 at_position = email.find('@')
 print(f'Position of @: {at_position}')
-email = 'alice.johnson@company.com'
-print(f'Email: {email}')
 
+username = email[:at_position]
+print(f'Username: {username}')
 
-#update the code, split....etc
-
+has_at = '@' in email
+print(f'Has @ symbol: {has_at}')
