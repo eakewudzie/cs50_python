@@ -29,6 +29,11 @@ print(f"Cleaned name: '{clean_name}'")
 
 
 
+messy_email = '  SARAH.DAVIS@COMPANY.COM  '
+clean_email= messy_email.strip().lower()
+
+print(f"Original email: '{messy_email}'")
+print(f"Cleaned email: '{clean_email}'" )
 
 
 
