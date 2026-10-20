@@ -24,6 +24,8 @@ print(f"Original name: '{messy_name}'")
 clean_name = messy_name.title()
 
 
+clean_name = messy_name.strip().title()
+print(f"Cleaned name: '{clean_name}'")
 
 
 
