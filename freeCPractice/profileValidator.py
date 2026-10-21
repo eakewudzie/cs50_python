@@ -36,6 +36,21 @@ print(f"Original email: '{messy_email}'")
 print(f"Cleaned email: '{clean_email}'" )
 
 
+name_badge = clean_name.upper()
+print(f'Name badge: {name_badge}')
 
+at_pos = clean_email.find('@')
+email_user = clean_email[:at_pos]
+
+print(f'Email: {clean_email}')
+print(f'Username: {email_user}')
+
+display_name = email_user.replace('.', ' ').title()
+print(f'Display name: {display_name}')
+
+phone = '123-456-7890'
+phone_clean = phone.replace('-', '')
+print(f'Phone with dashes: {phone}')
+print(f'Phone without dashes: {phone_clean}')
 
 
