@@ -15,3 +15,14 @@ def check_kitchen_stock():
     print(f'- {available_sugar} sugar')
 
 check_kitchen_stock()
+
+def use_eggs(available_eggs, eggs_to_use):
+    if eggs_to_use > available_eggs:
+        print('The kitchen does not have enough eggs.')
+        return available_eggs
+
+    print(f'{eggs_to_use} egg(s) used out of {available_eggs} available.')
+    return available_eggs - eggs_to_use
+
+use_eggs(9,2)
+print(available_eggs) # 1. The value of available_eggs is not updated because the function does not modify the global variable. It only returns a new value.
