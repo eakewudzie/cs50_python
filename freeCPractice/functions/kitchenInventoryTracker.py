@@ -26,3 +26,9 @@ def use_eggs(available_eggs, eggs_to_use):
 
 use_eggs(9,2)
 print(available_eggs) # 1. The value of available_eggs is not updated because the function does not modify the global variable. It only returns a new value.
+
+use_eggs(available_eggs, 1)
+print(available_eggs)
+
+def make_fried_egg(available_eggs):
+    has_enough_eggs = available_eggs >= 1
