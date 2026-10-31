@@ -31,4 +31,4 @@ use_eggs(available_eggs, 1)
 print(available_eggs)
 
 def make_fried_egg(available_eggs):
-    has_enough_eggs = available_eggs >= 1
+    has_enough_eggs = available_eggs >= 1# checks if there is at least 1 egg available to make a fried egg. It returns True if there are enough eggs, and False otherwise.
