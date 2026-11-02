@@ -45,4 +45,4 @@ available_eggs = make_fried_egg(available_eggs)
 # this updates the value of available_eggs with the new value returned by the make_fried_egg function. 
 #It ensures that the global variable reflects the current state of the kitchen inventory after making a fried egg.    
 
-check_kitchen_stock()
+check_kitchen_stock() #calls the check_kitchen_stock function to display the updated kitchen inventory after making a fried egg.
