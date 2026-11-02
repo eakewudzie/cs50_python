@@ -40,3 +40,9 @@ def make_fried_egg(available_eggs):
         print('Could not make a fried egg. Not enough eggs!')
 
     return available_eggs
+
+available_eggs = make_fried_egg(available_eggs) 
+# this updates the value of available_eggs with the new value returned by the make_fried_egg function. 
+#It ensures that the global variable reflects the current state of the kitchen inventory after making a fried egg.    
+
+check_kitchen_stock()
