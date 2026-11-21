@@ -29,4 +29,10 @@ programming_languages = ['Python', 'Java', 'C++', 'Rust']
 
 print('Rust' in programming_languages) # True
 print('JavaScript' in programming_languages)     # False
- 
+
+
+#Nested lists
+nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(nested_list[0])
+print(nested_list[0][1]) # 2
+print(nested_list[2][2]) 
