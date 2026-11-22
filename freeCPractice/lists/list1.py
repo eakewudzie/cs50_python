@@ -50,3 +50,8 @@ SmithInfo = ['John', 'Smith', 30, 'Engineer']
 first_name, *rest = SmithInfo
 print(first_name) 
 print(rest) # ['Smith', 30, 'Engineer']  the *rest variable collects all the remaining values from the list into a new list.    
+
+#slicing a list
+numbers = [100, 200, 300, 400, 500]
+print(numbers[1:4])
+print(numbers[1::2]) # [200, 400]  the slice starts at index 1, taking every second element.
