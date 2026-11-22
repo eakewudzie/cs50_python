@@ -36,3 +36,17 @@ nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(nested_list[0])
 print(nested_list[0][1]) # 2
 print(nested_list[2][2]) 
+
+#unpacking values from a list 
+#assigning values from a list to variables
+
+devNames = ['Eunice', 'John', 'Mary']
+name1, name2, name3 = devNames
+print(name1)
+print(name2)
+print(name3)
+
+SmithInfo = ['John', 'Smith', 30, 'Engineer']
+first_name, *rest = SmithInfo
+print(first_name) 
+print(rest) # ['Smith', 30, 'Engineer']  the *rest variable collects all the remaining values from the list into a new list.    
