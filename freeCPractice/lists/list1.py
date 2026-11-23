@@ -55,3 +55,35 @@ print(rest) # ['Smith', 30, 'Engineer']  the *rest variable collects all the rem
 numbers = [100, 200, 300, 400, 500]
 print(numbers[1:4])
 print(numbers[1::2]) # [200, 400]  the slice starts at index 1, taking every second element.
+
+
+
+
+#list methods
+#append() method adds an item to the end of a list
+#pop() method removes and returns the last item from a list
+#sort() method sorts the items in a list in ascending order
+numset1 = [5, 2, 9, 1, 7]
+numset1.append(4)
+print(numset1) 
+
+namesOfPeople = ['Alice', 'Bob', 'Charlie']
+
+numset1.append(namesOfPeople) #appended this list to numset1
+print(numset1) 
+
+#extend() method adds all the items from an iterable (like a list) to the end of the list
+odd_numbers = [1, 3, 5]
+even_numbers = [2, 4, 6]
+all_numbers = []
+all_numbers.extend(odd_numbers)
+all_numbers.extend(even_numbers)
+
+
+print(all_numbers) 
+
+all_numbers.insert(2,10) #inserts 10 at index 2
+print(all_numbers)
+
+all_numbers.remove(3) #removes the first occurrence of 3 from the list
+print(all_numbers)
