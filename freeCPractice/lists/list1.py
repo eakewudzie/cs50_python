@@ -71,3 +71,19 @@ namesOfPeople = ['Alice', 'Bob', 'Charlie']
 
 numset1.append(namesOfPeople) #appended this list to numset1
 print(numset1) 
+
+#extend() method adds all the items from an iterable (like a list) to the end of the list
+odd_numbers = [1, 3, 5]
+even_numbers = [2, 4, 6]
+all_numbers = []
+all_numbers.extend(odd_numbers)
+all_numbers.extend(even_numbers)
+
+
+print(all_numbers) 
+
+all_numbers.insert(2,10) #inserts 10 at index 2
+print(all_numbers)
+
+all_numbers.remove(3) #removes the first occurrence of 3 from the list
+print(all_numbers)
