@@ -87,3 +87,16 @@ print(all_numbers)
 
 all_numbers.remove(3) #removes the first occurrence of 3 from the list
 print(all_numbers)
+
+#pop() method removes and returns the last item from a list
+#pop() with an index removes and returns the item at that index
+
+all_numbers.pop()
+print(all_numbers)
+all_numbers.pop(2) #removes the item at index 2
+print(all_numbers)
+
+
+#clearing a list
+all_numbers.clear()
+print(all_numbers)
