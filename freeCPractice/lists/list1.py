@@ -100,3 +100,8 @@ print(all_numbers)
 #clearing a list
 all_numbers.clear()
 print(all_numbers)
+
+
+numbers = [19, 2, 35, 1, 67, 41]
+numbers.sort()
+print(numbers)
