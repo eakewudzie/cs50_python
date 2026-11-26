@@ -101,7 +101,19 @@ print(all_numbers)
 all_numbers.clear()
 print(all_numbers)
 
-
-numbers = [19, 2, 35, 1, 67, 41]
+#sort() method sorts the items in a list in ascending order
+numbers = [19, 2, 35, 1, 67, 41 ,500 ,0.2, 3]
 numbers.sort()
 print(numbers)
+
+#sorted() function returns a new sorted list from the items in an iterable
+#this maintains the original list unchanged
+numbers1 = [19, 2, 35, 1, 67, 41 ,500 ,0.2 ,3]
+sorted_numbers1 = sorted(numbers1)
+print(numbers1)  
+print(sorted_numbers1)
+
+#reverse() method reverses the order of items in a list
+numbers2 = [1, 2, 3, 4, 5]
+numbers2.reverse()
+print(numbers2)
