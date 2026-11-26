@@ -117,3 +117,7 @@ print(sorted_numbers1)
 numbers2 = [1, 2, 3, 4, 5]
 numbers2.reverse()
 print(numbers2)
+
+list_of_names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve']
+list_of_names.index('Charlie') # returns the index of the first occurrence of 'Charlie' in the list
+print(list_of_names.index('Charlie'))
