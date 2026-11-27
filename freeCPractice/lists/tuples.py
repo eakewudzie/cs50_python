@@ -35,4 +35,10 @@ print(name)
 print(age)
 print(profession)
 
+#unpacking values  that are not in order using the * operator to collect the remaining values into a new tuple.
+developers_names = ('Eunice', 'John', 'Mary', 'Sarah', 'David')
+first_name, *rest = developers_names
+print(first_name)
+print(rest) # has the rest of the values that were not assigned to the first_name variable. 
+
 
