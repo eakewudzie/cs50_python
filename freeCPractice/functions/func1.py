@@ -19,7 +19,13 @@ def calculate_sum(a, b):
     print(a + b)
 
 my_sum = calculate_sum(3, 1) # 4
-print(my_sum) # None.      return keyword has to be used here  
+print(my_sum) # None.      return keyword has not been used here  
+
+
+#######################################
+
+
+
 
 
 #the use of global and local variables in a function
